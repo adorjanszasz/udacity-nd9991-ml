@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/adorszasz/udacity-nd9991-ml)
+[![adorjanszasz](https://circleci.com/gh/adorjanszasz/udacity-nd9991-ml.svg?style=shield)](https://circleci.com/gh/adorjanszasz/udacity-nd9991-ml)
 
 ## Project Overview
 
