@@ -22,9 +22,10 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python3 -m venv devops &&\
-            . devops/bin/activate &&\
-            make install &&\
+            python3 -m venv devops
+            . devops/bin/activate
+            make install
+            # Install hadolint
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
             chmod +x /bin/hadolint
       - save_cache:
@@ -35,5 +36,5 @@ jobs:
       - run:
           name: run lint
           command: |
-            . devops/bin/activate &&\
+            . devops/bin/activate
             make lint
